@@ -1,13 +1,13 @@
-title: Security and Privacy Conference Deadlines
-description: Countdowns to top Security and Privacy conference deadlines.
-author: Bogdan Kulynych
+title: Human AI Conference Deadlines
+description: Countdowns to top Human AI conference deadlines.
+author: Rakshit Naidu
 
-domain: "sec-deadlines.github.io"
+domain: "humanai-deadlines.github.io"
 baseurl: ""
 
-twitter_username: hiddenmarkov
-github_username: sec-deadlines
-github_repo: sec-deadlines
+twitter_username: RakshitNaidu
+github_username: humanai-deadlines
+github_repo: humanai-deadlines
 ga_id: UA-104921371-1
 
 markdown: kramdown
