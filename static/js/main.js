@@ -40,7 +40,7 @@ $(function() {
   }
   // due to pop before; we need to reverse such that the i index later matches
   // the right parsed deadline
-  // parsedDeadlines.reverse();
+  parsedDeadlines.reverse();
 
   {% assign range_end = conf.deadline.size | minus: 1 %}
   {% for i in (0..range_end) %}
