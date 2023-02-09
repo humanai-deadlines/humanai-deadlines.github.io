@@ -61,3 +61,13 @@
     - "2022-09-01 23:59"
   place: Raleigh, NC, USA
   tags: [HUMAN, FAIR, PRIV, CONF]
+  
+- name: EAAMO
+  year: 2022
+  date: "October 6–9"
+  description: ACM conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+  link: https://eaamo.org/
+  deadline:
+    - "2022-04-20 23:59"
+  place: Washington DC, USA
+  tags: [FAIR, CONF]
