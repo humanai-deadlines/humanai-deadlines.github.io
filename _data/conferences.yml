@@ -44,9 +44,10 @@
 
 - name: AIES
   description: AAAI / ACM Conference on Artificial Intelligence, Ethics and Society
-  year: 2023
-  link: https://www.aies-conference.com/2023/
-  deadline: []
-  date: "August 27 - March 3"
-  place: Montreal, Canada
+  year: 2022
+  link: https://www.aies-conference.com/2022/
+  deadline: 
+    - "2022-03-01 23:59"
+  date: "August 1-3"
+  place: Oxford, UK
   tags: [HUMAN, FAIR, CONF]
