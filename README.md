@@ -15,14 +15,15 @@ Based on [ai-deadlines](https://aideadlin.es) by @abshkdz
 Example record:
 
 ```
-- name: Euro S&P
-  description: IEEE European Symposium on Security and Privacy
-  year: 2018
-  link: http://www.ieee-security.org/TC/EuroSP2018/
-  deadline: "2017-08-15 23:59"
-  date: April 24-26
-  place: London, UK
-  tags: [SEC, PRIV]
+- name: CHI
+  year: 2023
+  date: "April 23–28"
+  description: ACM Conference on Human Factors in Computing Systems
+  link: https://chi2023.acm.org/
+  deadline:
+    - "2022-09-15 23:59"
+  place: Hamburg, Germany
+  tags: [HUMAN, CONF]
 ```
 
 Descriptions of the fields:
