@@ -22,20 +22,17 @@
             <h1>
               {{ site.title }}<br>
               <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ site.description }}{% if site.twitter_hashtag %} #{{ site.twitter_hashtag }}{% endif %}" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-              <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+              <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}.github.io&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
             </h1>
           </div>
           <div class="col-xs-12">
             {{ site.description }}
-            <p>To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
+            <p>To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}.github.io">send in a pull request</a>.
             <p>Last update: {{ site.time | date: "%-d %B %Y" }}
             <div>
                 <p>
                     Deadlines as iCal: 
                     <a href="{{site.baseurl}}/ical/deadlines-all.ical">all</a>; 
-                    <a href="{{site.baseurl}}/ical/deadlines-sec.ical">security</a>; 
-                    <a href="{{site.baseurl}}/ical/deadlines-priv.ical">privacy</a>; 
-                    <a href="{{site.baseurl}}/ical/deadlines-crypto.ical">crypto</a>
                 </p>
             </div>
           </div>
@@ -111,8 +108,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data-10-year-range.min.js" integrity="sha512-d11VXfxQMn+sZuIgzHITdIuInr4cVRGV/uLiSI643WH/J+p4gPFYSHXRMR2v+w4Rn2TSyzJjsZjc0M7+Qd+UXw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/store.js/2.0.12/store.legacy.min.js" integrity="sha512-3yZTInL4yLU1ajnca35KTk6YE4RPHJU2y+jbhHAykE9OzMHpc2BIJghNsbkBNacIJWLLUmUkLEGPDDWrFY2zzw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="{{ site.baseurl}}/static/js/main.js" async></script>
-    {% if site.ga_id %}
-    {% include analytics.html %}
-    {% endif %}
   </body>
 </html>
