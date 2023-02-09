@@ -1,5 +1,6 @@
-# Security and Privacy deadlines countdown
+# Human-AI deadlines countdown
 
+Forked and inspired from [sec-deadlines](https://sec-deadlines.github.io/) by @sec-deadlines
 Based on [ai-deadlines](https://aideadlin.es) by @abshkdz
 
 ## Adding/updating a conference
